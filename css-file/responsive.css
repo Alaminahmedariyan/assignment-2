@@ -16,8 +16,8 @@
     justify-content: center;
     align-items: center;
   }
-  .tour-img img{
-width: 100%;
+  .tour-img img {
+    width: 100%;
   }
   .content-img {
     flex-direction: column;
@@ -55,7 +55,17 @@ width: 100%;
     grid-column: 1 / span 1;
     grid-row: 7 / span 1;
   }
-  .service-1-2{
+  .service-1-2 {
     flex-direction: column;
+  }
+  .newslatter-container {
+    flex-direction: column;
+  }
+  .newslatter-content2 {
+    width: 100%;
+  }
+
+  p > input {
+    width: 100%;
   }
 }

@@ -34,6 +34,7 @@ p {
   font-size: 20px;
   font-weight: 800;
   padding: 10px;
+  border: 2px solid #ff5400;
   border-radius: 12px;
 }
 /* header section styles is start */
@@ -281,8 +282,8 @@ p {
 /* service container section styles is end */
 
 /* deals and discounts section styles is start */
-#deals-discounts > div{
-margin-bottom: 24px;
+#deals-discounts > div {
+  margin-bottom: 24px;
 }
 .deal-discount {
   background-color: #fff;
@@ -294,7 +295,6 @@ margin-bottom: 24px;
   backdrop-filter: blur(2.5px);
   max-width: 580px;
   padding: 50px;
-
 }
 .deals-content-1 {
   display: flex;
@@ -323,4 +323,127 @@ margin-bottom: 24px;
   border-radius: 16px;
   background: url(../Images/Group\ 39.png) lightgray 50% / cover no-repeat;
 }
+.see-all-btn {
+  text-align: center;
+}
 /* deals and discounts section styles is end */
+
+/* simple place section styles is start  */
+.simple-place-img {
+  margin-bottom: 50px;
+}
+.simple-place-img > div {
+  color: #fff;
+  /* margin-bottom: 100px; */
+  margin-top: 150px;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.simple-place-img {
+  width: 610px;
+  height: 424px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 100%),
+    url("../Images/Group\ 40089.png") repeat no-repeat;
+}
+hr {
+  max-width: 400px;
+}
+.fa-solid {
+  margin-right: 10px;
+}
+.parfactc-contaier {
+  width: 87.5%;
+}
+.A-simple-perfect-btn {
+  margin-top: 10px;
+}
+/* simple place section styles is end  */
+
+/* newsLatter section styles is start */
+#newsLatter {
+  height: 500px;
+}
+.newslatter-container {
+  display: flex;
+  justify-content: space-between;
+  width: 87.5%;
+  gap: 24px;
+}
+.newslatter-content {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  height: 422px;
+  flex-shrink: 0;
+}
+.newslatter-img {
+  width: 60%;
+  border-radius: 10px;
+
+  background: url("../Images/Rectangle\ 8\ \(1\).png") lightgray 50% / cover
+    no-repeat;
+}
+.newslatter-img > div {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 290px;
+  margin-right: 20px;
+}
+.newslatter-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+}
+p > input {
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);
+  border-radius: 8px;
+}
+.newslatter-content2 {
+ 
+  color:#fff;
+  text-align: center;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #ff5400;
+}
+
+/* newsLatter section styles is end?
+
+/* footer section styles is start  */
+footer {
+  margin-top: 100px;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 87.5%;
+  height: 502px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer-section hr {
+  width: 87.5%;
+  background: rgba(1, 1, 2, 0.1);
+}
+
+.social-icon {
+  display: flex;
+  gap: 24px;
+}
+
+/* footer section styles is end  */
